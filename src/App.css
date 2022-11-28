@@ -108,7 +108,7 @@ body {
 }
  .btnNexAndPrevious{
      background-color: #c28585;
-     color: rgb(233, 213, 213);
+     color: yellow;
      font-size: 20px;
 }
  .btnNexAndPrevious:hover{
