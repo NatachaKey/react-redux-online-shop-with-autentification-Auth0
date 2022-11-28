@@ -186,7 +186,7 @@ body {
          font-size: 15px;
     }
      .linkStyle{
-         font-size: 10px;
+         font-size: 15px;
     }
      .imgSmallDevice{
          width: 100px;
@@ -195,7 +195,5 @@ body {
          width:400px;
          height:300px;
     }
-    nav {
-      font-size:10px;
-    }
+   
 }
