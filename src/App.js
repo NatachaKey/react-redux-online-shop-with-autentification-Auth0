@@ -6,14 +6,12 @@ import {
     Link
 } from 'react-router-dom';
 import About from './About';
-
 import './App.css';
 import Contacts from './Contacts';
 import History from './History';
 import Shop from './Shop';
 import Login from './Login';
 import Logout from './Logout';
-
 
 function App() {
 
@@ -26,7 +24,6 @@ function App() {
     <Link className='linkStyle' to="/Contacts">Contacts</Link>
     <Login/> 
     <Logout/>
-    
 </nav>
 
     <Routes>
