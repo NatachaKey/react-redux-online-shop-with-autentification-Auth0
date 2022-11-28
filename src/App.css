@@ -116,6 +116,7 @@ body {
 }
  .text{
      text-align: center;
+      opacity:.8;
 }
  .slide{
      width:600px;
