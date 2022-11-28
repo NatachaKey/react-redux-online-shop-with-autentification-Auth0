@@ -1,0 +1,198 @@
+body {
+     background-color: #c28585;
+     font-family: 'Montserrat', sans-serif;
+}
+ .particles {
+     z-index: -1;
+}
+ .background-video {
+     position: absolute;
+     object-fit: cover;
+     width:100vw;
+     height:100vh;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: -1;
+}
+ nav{
+     display: flex;
+     justify-content: space-around;
+}
+.transparentBtn{
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    text-align: center;
+}
+.marginAuth{
+    margin-top: 25px;
+    text-align: center;
+}
+ .par{
+     z-index: 10;
+     margin-bottom: 10px;
+     margin-top: 40px;
+     color: rgb(44, 30, 30);
+     text-transform: capitalize;
+     font-weight: bolder;
+     font-size: 28px;
+}
+ .italic{
+     font-style: italic;
+}
+ .aboutLines{
+     display: flex;
+     flex-direction: column;
+     justify-content: flex-end;
+     margin-left: 20px;
+     margin-bottom: 10px;
+     margin-top: 140px;
+     text-shadow: 2px 1px #c26c6c;
+}
+ .linkStyle{
+     margin-top: 40px;
+     margin-bottom: 40px;
+     margin-left: 40px;
+     font-size: 45px;
+     text-decoration: none;
+     color: #fff;
+     font-weight: bolder;
+     text-shadow: 1px 1px #c26c6c;
+}
+ .linkStyle:hover{
+     color: #94526e;
+}
+ .block {
+     background-color: rgba(253, 218, 226, 0.5);
+     padding: 20px;
+     width: 40vw;
+}
+ .App {
+     text-align: center;
+     display: flex;
+     justify-content: space-around;
+}
+ .categoryButton{
+     cursor: pointer;
+     margin: 5px;
+     padding:15px ;
+}
+ .categoryButtonSelected{
+     background-color: pink;
+}
+ .categoryButton:hover {
+     background-color: #94526e;
+}
+ .icon{
+     width: 20px;
+}
+ button{
+     font-family: 'Montserrat', sans-serif;
+     padding: 10px;
+     border: none;
+     cursor: pointer;
+     background-color: #f3f2e7;
+     border-radius: 12px;
+     font-weight: bolder;
+}
+ .App-logo {
+     height: 40vmin;
+     pointer-events: none;
+}
+ .box{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+}
+ .btnNexAndPrevious{
+     background-color: #c28585;
+     color: rgb(233, 213, 213);
+     font-size: 20px;
+}
+ .btnNexAndPrevious:hover{
+     color: aliceblue;
+}
+ .text{
+     text-align: center;
+}
+ .slide{
+     width:600px;
+     height:400px;
+}
+ .bgCart{
+     background-color: #ad4c74;
+     padding: 20px;
+     color: #fff;
+     width: auto;
+}
+ .italic{
+     font-style: italic;
+     color: rgb(247, 218, 218);
+     font-weight: lighter;
+}
+ @media (prefers-reduced-motion: no-preference) {
+     .App-logo {
+         animation: App-logo-spin infinite 20s linear;
+    }
+}
+ .App-header {
+     background-color: #282c34;
+     min-height: 100vh;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-size: calc(10px + 2vmin);
+     color: white;
+}
+ .App-link {
+     color: #61dafb;
+}
+ @keyframes App-logo-spin {
+     from {
+         transform: rotate(0deg);
+    }
+     to {
+         transform: rotate(360deg);
+    }
+}
+ @media all and (max-width:800px){
+     .par{
+         color: #fff;
+         text-transform: uppercase;
+         font-weight: bolder;
+         font-size: 20px;
+    }
+     .linkStyle{
+         font-size: 34px;
+    }
+     .imgSmallDevice{
+         width: 50%;
+    }
+}
+ @media all and (max-width:500px){
+     button{
+         color: #000000;
+    }
+     h1{
+         font-size: 20px;
+    }
+     .par{
+         color: #fff;
+         text-transform: uppercase;
+         font-weight: bolder;
+         font-size: 15px;
+    }
+     .linkStyle{
+         font-size: 20px;
+    }
+     .imgSmallDevice{
+         width: 100px;
+    }
+     .slide{
+         width:400px;
+         height:300px;
+    }
+}
