@@ -188,6 +188,9 @@ body {
      .linkStyle{
          font-size: 15px;
     }
+      .transparentBtn{
+       font-size: 15px;
+      }
      .imgSmallDevice{
          width: 100px;
     }
