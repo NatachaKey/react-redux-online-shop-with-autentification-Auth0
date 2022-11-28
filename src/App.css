@@ -173,6 +173,10 @@ body {
     }
 }
  @media all and (max-width:500px){
+      nav{
+     display: flex;
+     justify-content: space-between;
+}
      button{
          color: #000000;
     }
