@@ -193,7 +193,8 @@ body {
          font-size: 12px;
     }
       .transparentBtn{
-       font-size: 12px;
+          font-size: 12px;
+          margin-left:5px;
       }
      .imgSmallDevice{
          width: 100px;
