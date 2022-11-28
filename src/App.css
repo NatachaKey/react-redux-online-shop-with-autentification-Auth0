@@ -195,4 +195,7 @@ body {
          width:400px;
          height:300px;
     }
+    nav {
+      font-size:10px;
+    }
 }
