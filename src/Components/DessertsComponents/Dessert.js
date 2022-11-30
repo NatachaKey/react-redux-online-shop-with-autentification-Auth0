@@ -32,7 +32,7 @@ const Dessert = ({ dessert })=> {
         <p>${dessert.price}</p>
         <ChangeQuantity quantity={quantity} setQuantity={setQuantity}/>
         <br/>
-        <button onClick={handleBuy}>Add to cart</button>
+        <button className="visibilityBtn" onClick={handleBuy}>Add to cart</button>
         <br/>
     </div>)
 }
