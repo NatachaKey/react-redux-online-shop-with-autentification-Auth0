@@ -9,17 +9,16 @@ function Shop() {
   return ( 
 <div className="App">
   <Particless/> 
-<div className="block">
-  <AllCategories/>
-  <br/>
-  <Cart/>
-</div>
-
-<div className="block">
-  <Desserts /> 
-</div>      
-
-</div>
+  <div className="block">
+    <AllCategories/>
+      <br/>
+    <Cart/>
+  </div>
+    
+  <div className="block">
+    <Desserts /> 
+  </div>      
+ </div>
   );
 }
 
