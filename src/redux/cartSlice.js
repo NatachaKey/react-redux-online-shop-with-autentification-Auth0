@@ -14,10 +14,8 @@ export const cartSlice = createSlice({
                 name:action.payload.dessert.name,
                 quantity: action.payload.quantity,
                 price: action.payload.dessert.price,
-                totalPrice: action.payload.quantity * action.payload.dessert.price,
-                
-            })
-            
+                totalPrice: action.payload.quantity * action.payload.dessert.price,  
+            })            
         },
         
         removeItemFromCart: (state, action) =>{
@@ -37,17 +35,14 @@ export const cartSlice = createSlice({
                     newCart.push(changeCart);
                 } else {
                     newCart.push(item);
-                }
-
-                
+                }                
             })
             state.cartItems = newCart;
         },
 
         clearCart: state => {
             state.cartItems = []
-        }
-        
+        }       
     }
 })
 
