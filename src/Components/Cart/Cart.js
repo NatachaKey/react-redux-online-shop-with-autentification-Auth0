@@ -3,8 +3,6 @@ import { getCartItems, getTotalPrice } from "../../redux/cartSlice";
 import CartItem from "./CartItem";
 import {  clearCart } from "../../redux/cartSlice";
 
-
-
 const Cart = ()=> {
     let cartItems = useSelector(getCartItems);
     const totalPrice = useSelector(getTotalPrice);
